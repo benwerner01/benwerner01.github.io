@@ -26,6 +26,7 @@ const MacOSWindow: FunctionComponent<MacOSWindowProps> = ({
       }}
     >
       <Box
+        component="div"
         sx={(theme) => ({
           left: 3,
           top: 6,
@@ -41,7 +42,7 @@ const MacOSWindow: FunctionComponent<MacOSWindowProps> = ({
             borderRadius: "50%",
             borderWidth: 1,
             borderStyle: "solid",
-            marginLeft: 9,
+            marginLeft: "9px",
             "&:nth-child(1)": {
               backgroundColor: "rgb(238, 107, 96)",
               borderColor: Color("rgb(238, 107, 96)")
